@@ -1,0 +1,20 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+pydantic>=2.8.0
+pydantic-settings>=2.4.0
+python-dotenv>=1.0.0
+
+# Phase 2 dependencies (will be uncommented when needed):
+# PyMuPDF==1.24.0
+# pdfplumber==0.11.0
+# python-docx==1.1.0
+# anthropic==0.34.0
+
+# Phase 3 dependencies (will be uncommented when needed):
+# langgraph==0.2.0
+# langchain-anthropic==0.1.0
+
+# Phase 4 dependencies (will be uncommented when needed):
+# sqlalchemy==2.0.23
+# psycopg2-binary==2.9.9
+# alembic==1.13.0
