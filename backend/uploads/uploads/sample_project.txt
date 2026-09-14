@@ -1,0 +1,28 @@
+Client Project Requirements
+
+Project Name: E-commerce Mobile App
+
+Goals:
+- Build a mobile shopping app for iOS and Android
+- Support real-time inventory updates
+- Integrate payment processing
+- Provide personalized product recommendations
+
+Features Requested:
+- User authentication (email/social login)
+- Product catalog with search and filters
+- Shopping cart and checkout
+- Order tracking
+- Push notifications for deals
+- Wishlist functionality
+
+Technical Requirements:
+- Must support 10,000 concurrent users
+- Payment integration with Stripe
+- Backend API needed
+- Admin dashboard for managing products
+
+Timeline: 3 months
+Budget: $50,000
+
+Contact: john@example.com

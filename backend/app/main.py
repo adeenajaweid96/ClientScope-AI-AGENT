@@ -6,6 +6,7 @@ from contextlib import asynccontextmanager
 
 from app.core.config import settings
 from app.api import routes_upload, routes_projects
+from app.db.session import init_db
 
 
 @asynccontextmanager
@@ -17,6 +18,11 @@ async def lifespan(app: FastAPI):
     print(f"Debug mode: {settings.DEBUG}")
     print(f"Database: {settings.DATABASE_URL}")
     print(f"File storage: {settings.FILE_STORAGE_PATH}")
+
+    # Initialize database
+    print("Initializing database...")
+    init_db()
+    print("Database initialized")
 
     yield
 
